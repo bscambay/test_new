@@ -1,0 +1,22 @@
+Insert into account (account_pin, name, password)
+Values ('078202', 'David', 'password'), --David
+        ('204027', 'Beth', 'password'),--Beth
+        ('368218', 'Mary', 'password');--Mary
+
+Insert into workflow (name, description, created_by, last_modified_by)
+Values ('test', 'this is a test', '078202', '078202'),--David
+        ('test 2', 'another test', '204027', '204027'),--Beth
+        ('test 3', 'yet another test', '368218', '368218');--Mary
+
+Insert into role (name, description)
+Values ('database admin', 'Can modify database workflow'),
+		('database user', 'Can view database workflow');
+		
+
+
+
+
+Insert into account_role (account_pin, role_id)
+Values ('078202', 1),--David
+        ('204027', 2),--Beth
+        ('368218', 2);--Mary

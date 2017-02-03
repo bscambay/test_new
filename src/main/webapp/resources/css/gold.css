@@ -1,0 +1,426 @@
+.splashpage
+{
+	background-image: url("../images/img-3-opt.jpg");
+	/*background-size: contain;
+	background-repeat: no-repeat;
+	*/
+	background-size: 100% 100%;
+     background-repeat: no-repeat;
+	
+}
+
+.navbar-brand>img,
+.brand>img 
+{
+	display: inline-block;
+	max-height: 1em;
+}
+
+#header .brand 
+{
+	color: white;
+}
+
+.panel-default>.panel-heading {
+	background: #002A5C;
+	color: white;
+}
+
+#logout {
+	color: black;
+}
+
+#logout:hover {
+	color: blue;
+	background-color: transparent;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+	color: black;
+	background-color: #e3dadb;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus
+	{
+	color: #fff59d;
+	background-color: transparent;
+}
+
+.navbar-static-top {
+	background-color: #002a5c;
+}
+
+.navbar-top-links li a {
+	color: white;
+}
+
+.navbar-top-links li a:hover {
+	color: #fff59d;
+	background-color: #002a5c;
+}
+
+.navbar-top-links li a:focus {
+	color: white;
+	background-color: #002a5c;
+}
+
+.dropdown-user {
+	background-color: #e3dadb;
+}
+
+.dropdown-li:not (:first-child ) {
+	border-top: 1px dashed #000;
+}
+
+.active>a {
+	font-weight: bold;
+}
+
+#signInForm {
+ 	padding: 150px 30px 50px 350px; 
+}
+
+#signInBody {
+	background-color: white;
+}
+
+#preferenceForm {
+	display: block;
+}
+
+/* Alters hover shade from bootstrap css */
+
+.table-hover tbody tr:hover > td,
+.table-hover tbody tr:hover > th {
+  background-color: #e5e3e3;
+}
+
+#tableFix {
+	padding: 0px 30px 50px 50px;
+}
+
+#headerFix {
+	padding: 0px 30px 0px 50px; 
+}
+.v-height {
+    display:flex !important;
+    height: 100%;
+}
+.v-align {
+   display:table-cell;
+   vertical-align:middle;
+   min-height: 100%;  /* Fallback for vh unit */
+   min-height: 100vh; /* You might also want to use
+                        'height' property instead.
+                        
+                        Note that for percentage values of
+                        'height' or 'min-height' properties,
+                        the 'height' of the parent element
+                        should be specified explicitly.
+  
+                        In this case the parent of '.vertical-center'
+                        is the <body> element   display: flex; */
+
+  /* Make it a flex container */
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  
+  /* Align the bootstrap's container vertically */
+   -webkit-box-align : center;
+   -webkit-align-items : center;
+   -moz-box-align : center;
+   -ms-flex-align : center;
+    align-items : center;
+  
+  /* In legacy web browsers such as Firefox 9
+     we need to specify the width of the flex container
+  width: 100%;
+   */
+  /* Also 'margin: 0 auto' doesn't have any effect on flex items in such web browsers
+     hence the bootstrap's container won't be aligned to the center anymore.
+  
+     Therefore, we should use the following declarations to get it centered again */
+    -webkit-box-pack : center;
+    -moz-box-pack : center;
+    -ms-flex-pack : center;
+    -webkit-justify-content : center;
+     justify-content : center;    
+}
+/*
+.v-img {
+   background-image:url("../images/disabilityImg.jpg");	
+   background-repeat: no-repeat;
+   background-size:100% 100%;
+}
+*/
+/* Class to alter the table headings */
+/* .table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, */
+/* 	.table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, */
+/* 	.table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th */
+/* 	{ */
+	
+/* } */
+
+#footer
+{
+	height: 64px;
+	border-top: darkgrey thin solid;
+	line-height: 20px;
+}
+
+#footer .header
+{
+	font-size: 1.5em;
+}
+
+div.footer-info {
+	float: left;
+	margin-left:100px;
+}
+
+div.footer-info > img {
+	width: 64px;
+}
+
+div.footer-info > div {
+	display: inline-block;
+	vertical-align: middle;
+	height: 64px;
+	text-align: left;
+	margin-left: 1em;
+	max-height: 64px;
+}
+
+div.footer-contact {
+	float: right;
+	margin-right: 100px;
+	max-height: 64px;
+}
+
+#main-content {
+	margin-bottom: 64px !important;
+}
+
+/* Set size of map on dashboard widget */
+#map {
+   height: 500px;
+ }
+ 
+ /* Prevent charts and graphs in dashboard widgets from going out of the widget body on lower resolution */
+ .widget {
+ 	overflow:hidden;
+ }
+ 
+ /* Over ride the metrolabs profile color (black) with DE gray */
+.de-header {
+	background-color : #77808a;
+}
+	
+/* Sidebar subsubmenu */
+
+#sidebar > ul > li > ul > li > ul.subsub {
+    display: none;
+    list-style: none;
+    clear: both;
+    margin: 0px;
+}
+
+#sidebar > ul > li > ul > li > ul.subsub {
+    margin-bottom: 0 !important;
+    list-style: none;
+}
+#sidebar > ul > li.active >ul > li > ul.subsub {
+    display: block;
+    margin-bottom: 0 !important;
+    list-style: none;
+}
+
+#sidebar > ul > li > ul > li > ul.subsub > li {
+    background: none !important;
+    padding: 0px;
+    margin-bottom: 1px;
+}
+
+#sidebar > ul > li > ul > li > ul.subsub > li > a {
+    display: block;
+    position: relative;
+    padding: 10px 10px 10px 45px;
+    color: #ccc;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #000;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: normal;
+    
+}
+
+#sidebar > ul > li > ul > li > ul.subsub > li > a:hover {
+    background-color: #575757 !important;
+        transition-duration: 5s;
+    transition-property: width, background;
+    transition-timing-function: ease;
+    -webkit-transition-duration: 500ms;
+    -webkit-transition-property: width, background;
+    -webkit-transition-timing-function: ease;
+}
+
+#sidebar > ul > li > ul > li > ul.subsub > li.active {
+    background-color: #575757 !important;
+}
+
+#sidebar > ul > li > ul> li.active > a .arrow {
+    margin-right: 0px;
+}
+
+#sidebar > ul > li > ul> li.active > a .arrow.open {
+    margin-right: 0px;
+}
+
+#sidebar ul > li > ul> li > a .arrow {
+    float: right;
+    margin-top: 12px;
+    margin-right: 0px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid #A0A0A0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+
+#sidebar > ul > li > ul> li > a .arrow.open {
+    float: right;
+    margin-top: 14px;
+    margin-right: 0px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid #A0A0A0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+}
+
+#sidebar ul > li > ul> li.active > a .arrow, #sidebar ul > li > ul> li > a:hover .arrow {
+    float: right;
+    margin-top: 12px;
+    margin-right: 0px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid #fff;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+
+#sidebar > ul > li > ul> li.active > a .arrow.open, #sidebar > ul > li > ul> li > a:hover .arrow.open {
+    float: right;
+    margin-top: 14px;
+    margin-right: 0px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid #fff;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+/*Styles the email and chat icons at the bottom center of the the profile page*/
+
+#list-outer{
+	height: 50px;
+	text-align: center;	
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+.profile-head {
+	padding: 5px;
+	background-color: #77808a;
+}
+
+#profile-icons {
+	min-width: 696px;
+	cursor: pointer;
+	list-style-type:none;
+	display:inline;
+	min-width: 696px;
+}
+
+#profile-icons li {
+	display:inline-block;
+	font-size:14px;
+	margin: 0 10px;
+	
+}
+
+#profile-icons li a {
+	display: inline-block;
+    background-color: #77808a;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+    color: white;
+    text-decoration: none;
+    transition-duration: 500ms;
+    transition-property: width, background;
+    transition-timing-function: ease;
+    -webkit-transition-duration: 500ms;
+    -webkit-transition-property: width, background;
+    -webkit-transition-timing-function: ease;
+}
+
+.profile-head .social-link-pf {
+    margin-top: 0;
+}
+
+#profile-icons li a:hover {
+	background-color : #4a8bc2;
+	color: white;	
+}
+
+#list-outer {
+	height: 36px;
+}
+
+.withSeparator {
+  border-bottom: 2px solid darkgrey;
+}
+
+/*Removes placeholder text in Chrome Browser when GOLD application search is selected*/
+[placeholder]:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+/*Allows user to clear contents from data table search and GOLD application search*/
+input[type="search"] {
+  -webkit-appearance: searchfield;
+}
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: searchfield-cancel-button;
+  color: black; 
+}
+
+@media screen and (max-width: 1320px) {
+	.packageLink {
+	width: 53px;
+	}
+	
+@media screen and (max-width: 1320px) {
+	.packageButton {
+	width: 77px;
+	}
+

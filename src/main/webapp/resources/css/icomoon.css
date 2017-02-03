@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../font/icomoon.eot?hvqs00');
+  src:  url('../font/icomoon.eot?hvqs00#iefix') format('embedded-opentype'),
+    url('../font/icomoon.ttf?hvqs00') format('truetype'),
+    url('../font/icomoon.woff?hvqs00') format('woff'),
+    url('../font/icomoon.svg?hvqs00#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ico-"], [class*=" ico-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-visibility_off:before,
+.ico-eye:before {
+  content: "\e900";
+}
+.ico-tty:before {
+  content: "\e901";
+}
+.ico-braille:before {
+  content: "\e902";
+}
+.ico-deaf:before {
+  content: "\e903";
+}
+.ico-deafness:before {
+  content: "\e903";
+}
+.ico-hard-of-hearing:before {
+  content: "\e903";
+}
+.ico-assistive-listening-systems:before {
+  content: "\e904";
+}
+.ico-blind:before {
+  content: "\e905";
+}
+.ico-sign-language:before {
+  content: "\e906";
+}
+.ico-signing:before {
+  content: "\e906";
+}
+.ico-american-sign-language-interpreting:before {
+  content: "\e907";
+}
+.ico-asl-interpreting:before {
+  content: "\e907";
+}
+.ico-wheelchair:before {
+  content: "\e908";
+}
+.ico-wheelchair-alt:before {
+  content: "\e909";
+}
+.ico-spinner9:before {
+  content: "\e982";
+}
+.ico-spinner10:before {
+  content: "\e983";
+}
+.ico-eye-minus:before {
+  content: "\e9d0";
+}
+.ico-eye-blocked:before {
+  content: "\e9d1";
+}
+.font-25vw {
+    font-size: 20vw;
+}
+.bg-layer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
