@@ -1,0 +1,73 @@
+2016-07-12 09:12:29 ERROR  : ERROR:  syntax error at or near "Selct"
+LINE 1: Selct Version();
+        ^
+2016-07-12 13:08:22 ERROR  : ERROR:  relation "customers" does not exist
+LINE 1: Select * from Customers;
+                      ^
+2016-07-12 13:27:19 ERROR  : ERROR:  syntax error at or near ","
+LINE 3:     VALUES (?, Bhavin, Shah);
+                     ^
+2016-07-12 13:27:29 ERROR  : ERROR:  column "bhavin" does not exist
+LINE 3:     VALUES (1, Bhavin, Shah);
+                       ^
+2016-07-12 13:28:01 ERROR  : ERROR:  column "Bhavin" does not exist
+LINE 3:     VALUES (1, "Bhavin", "Shah");
+                       ^
+2016-07-12 13:28:45 ERROR  : ERROR:  column "bhavin" does not exist
+LINE 3:     VALUES (1, Bhavin,Shah);
+                       ^
+2016-07-12 13:28:48 ERROR  : ERROR:  column "bhavin" does not exist
+LINE 3:     VALUES (1, Bhavin,Shah);
+                       ^
+2016-07-12 13:32:29 ERROR  : ERROR:  column "bhavin" does not exist
+LINE 3:     VALUES (1, Bhavin, Shah);
+                       ^
+2016-07-12 13:33:00 ERROR  : ERROR:  column "Bhavin" does not exist
+LINE 3:     VALUES (1, "Bhavin", "Shah");
+                       ^
+2016-11-18 08:34:06 ERROR  : Incorrect password!
+2016-11-18 08:34:43 ERROR  : Incorrect password!
+2016-11-18 08:35:04 ERROR  : Incorrect password!
+2016-11-18 08:35:09 ERROR  : Incorrect password!
+2016-12-15 14:50:26 ERROR  : ERROR:  syntax error at or near "DBCC"
+LINE 1: DBCC Rename postgres gold
+        ^
+2016-12-15 14:51:49 ERROR  : ERROR:  role "gold" does not exist
+2016-12-15 15:14:16 ERROR  : ERROR:  current database cannot be renamed
+2016-12-15 15:15:23 ERROR  : ERROR:  current database cannot be renamed
+2016-12-15 15:16:57 ERROR  : ERROR:  syntax error at or near "ALTER"
+LINE 4: ALTER DATABASE postgres RENAME TO gold
+        ^
+2016-12-15 15:17:16 ERROR  : ERROR:  database "postgres" is being accessed by other users
+DETAIL:  There are 4 other sessions using the database.
+2016-12-15 15:17:39 ERROR  : ERROR:  database "postgres" is being accessed by other users
+DETAIL:  There are 4 other sessions using the database.
+2016-12-15 15:19:31 ERROR  : ERROR:  database "postgres" is being accessed by other users
+DETAIL:  There are 4 other sessions using the database.
+2016-12-15 15:24:57 ERROR  : ERROR:  current database cannot be renamed
+2016-12-15 15:25:03 ERROR  : ERROR:  current database cannot be renamed
+2016-12-15 15:28:07 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-12-15 15:31:48 ERROR  : ERROR:  database "postgres" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+2016-12-15 15:32:19 ERROR  : ERROR:  database "postgres" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+2016-12-15 15:33:08 ERROR  : ERROR:  database "postgres" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+2016-12-15 15:35:26 ERROR  : ERROR:  database "postgres" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+2016-12-15 15:38:06 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-12-15 15:39:17 ERROR  : ERROR:  database "postgres" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+2016-12-15 15:40:10 ERROR  : ERROR:  current database cannot be renamed
+2016-12-15 16:19:13 ERROR  : ERROR:  database "postgres" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+2016-12-16 13:02:54 ERROR  : ERROR:  database "postgres" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+2016-12-16 13:03:35 ERROR  : ERROR:  database "postgres" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+2016-12-16 13:05:54 ERROR  : ERROR:  current database cannot be renamed
+2016-12-16 13:06:01 ERROR  : ERROR:  current database cannot be renamed
